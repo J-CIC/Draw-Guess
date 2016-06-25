@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>你画我猜</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<link href="/stylesheets/index.css" rel="stylesheet">
+</head>
+<body onload="initSize()">
+	<div class="main">
+		<canvas id="myCanvas"></canvas>
+		<hr>
+		<div class="color" id="color">
+			<div class="color_div" id="green" style="background-color:green;"></div>
+			<div class="color_div" id="blue" style="background-color:blue;"></div>
+			<div class="color_div" id="black" style="background-color:black;"></div>
+			<div class="color_div" id="pink" style="background-color:pink;"></div>
+			<div class="color_div" id="yellow" style="background-color:yellow;"></div>
+			<div class="color_div" id="red" style="background-color:red;"></div>
+		</div>
+		<div class="button_groups">
+			<button id="change_color">修改颜色</button>
+			<button id="clear" onclick="clean()">清除</button>
+		</div>
+		<input class="content" id="content" placeholder="内容"></input>
+		<div class="btn" id="btn">提交</div>
+	</div>
+	<div class="show_user">
+		<ul class="usersList" id="usersList"></ul>
+	</div>
+	<div>
+		<ul id="messageList"></ul>
+	</div>
+</body>
+	<script src="/javascripts/ajax.js"></script>
+	<script src="/javascripts/index_show.js"></script>
+	<script src="/javascripts/draw.js"></script>
+</html>

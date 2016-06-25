@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#body, h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, Arial, Roboto, "Droid Sans",
+		"Helvetica Neue", "Droid Sans Fallback", "Heiti SC",
+		 "Hiragino Sans GB", Simsun, sans-self;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+}
+.main{
+	width: 100%;
+	text-align: center;
+}
+.usr_name{
+	margin-top:10px;
+	width: 80%;
+	border-width: 0 0 2px 0;
+	border-color: #6bae40;
+	height: 20px;
+	outline: none;
+	font-size:20px;
+}
+.content{
+	margin: 10px auto;
+	width: 80%;
+	border-width: 0 0 2px 0;
+	border-color: #6bae40;
+	height: 20px;
+	outline: none;
+	font-size: 20px;
+}
+.btn {
+    width: 80%;
+    height: 32px;
+    border: 1px #6bae40 solid;
+	cursor: pointer;
+    color: #6bae40;
+    font-size: 16px;
+    line-height: 32px;
+    border-radius: 2px;
+    margin: 15px auto;
+}
+#messageList{
+	width: 80%;
+	margin: 10px auto;
+	word-wrap: break-word;
+}
+#myCanvas{
+	width: 100%;
+	z-index: 5;
+	height: 300px;
+}
+#change_color{
+	height: 50px;
+}
+#clear{
+	width:50px;
+	height:50px;
+}
+.color{
+	width: 100%;
+	text-align: center;
+	display: none;
+	z-index: 10;
+}
+.color_div{
+	width:50px;
+	height:50px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:5px;
+	margin-bottom: 2px;
+	z-index:10;
+	border-radius: 3px;
+	display: inline-block;
+}
