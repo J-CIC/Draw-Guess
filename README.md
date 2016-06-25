@@ -15,7 +15,8 @@
 > app.enable('trust proxy');
 
 如不需要请注释掉
-自己定义了中间件，路径是/my_modules/var.js
-主要是用于app.js与index.js(routes下的)之间的变量共享
+
+自己定义了中间件，路径是/my_modules/var.js 主要是用于app.js与index.js(routes下的)之间的变量共享
+
 启动应用，在根目录下
 > node app.js
