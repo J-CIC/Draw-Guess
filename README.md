@@ -3,7 +3,8 @@
 
 #### 使用Node.js的Express框架
 
-1、环境修改：将/public/javascripts/index_show.js中的ip地址修改    
+##### 1、环境修改：
+将/public/javascripts/index_show.js中的ip地址修改    
 本地使用请将    
 `` this.socket = io.connect('http://your_ip:3000');``    
 改成    
@@ -14,10 +15,11 @@
 如不需要请注释掉    
 自己定义了中间件，路径是/my_modules/var.js 主要是用于app.js与index.js(routes下的)之间的变量共享
 
-2、启动应用，在根目录下
+##### 2、启动应用
+在根目录下
 > node app.js
 
-3、访问地址
+##### 3、访问地址
 > http://your_ip:3000/room/roomID  
 
 将roomID替换为任意字符串，不同的字符串视作不同房间
